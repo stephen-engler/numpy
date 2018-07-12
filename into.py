@@ -27,6 +27,15 @@ print(linspace)
 square = np.eye(4)
 print(square)
 
-#random
+#random from 0 to 1
+random_array = np.random.rand(5,5)
+
+print(random_array)
+#form -1 to 1
+random_negative_positive = np.random.randn(2)
+print(random_negative_positive)
+
+random_int = np.random.randint(1,100)
+print(random_int)
 
 
