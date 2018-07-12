@@ -37,5 +37,11 @@ print(random_negative_positive)
 
 random_int = np.random.randint(1,100)
 print(random_int)
+#reshape
+arr = np.arange(25)
+ranarr = np.random.randint(0,50,10)
 
+arr.reshape(5,5)
 
+maxInt = ranarr.max()
+maxindex = ranarr.argmax()
