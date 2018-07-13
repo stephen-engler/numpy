@@ -30,3 +30,13 @@ print(arr_2d[2,2])
 
 #grab sub matrix
 print(arr_2d[:2, 1:])
+
+#conditional selection
+
+arr = np.arange(1,11)
+bool_arr = arr >5
+print(bool_arr)
+print(arr[bool_arr])
+#or
+print(arr[arr>5])
+print(arr[arr<3])
